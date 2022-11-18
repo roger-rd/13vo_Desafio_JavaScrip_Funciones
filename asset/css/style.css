@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(229, 225, 225);
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30%;
+    margin: 50px;
+
+}
+
+.container-pintar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: rgb(160, 238, 82);
+
+}
+
+.container-cuadros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+    border: 1px solid black;
+    background-color: rgb(60, 90, 210);
+
+}
+
+a:hover {
+    cursor: pointer;
+    color: rgb(201, 14, 42);
+}

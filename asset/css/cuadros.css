@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(229, 225, 225);
+}
+
+h1 {
+    text-align: center;
+}
+
+#lista {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+#cuadros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+#cuadros:hover {
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
+
+button:hover {
+    color: cornflowerblue;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
